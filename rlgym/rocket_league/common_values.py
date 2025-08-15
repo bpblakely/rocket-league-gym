@@ -48,7 +48,7 @@ ORANGE_FIELD_BOTTOM_RIGHT = (-SIDE_WALL_X, BACK_WALL_Y, 0)
 BLUE_FIELD_BOTTOM_RIGHT = (SIDE_WALL_X, -BACK_WALL_Y, 0)
 
 GOAL_THRESHOLD = 5215.5  # uu, magnitude of y position required for ball to be inside goal
-GOAL_THRESHOLD_HOOPS = 270 # uu, magnitude of z position for ball to be inside net to count as a goal
+GOAL_THRESHOLD_Z_HOOPS = 270 # uu, magnitude of z position for ball to be inside net to count as a goal
 
 # Time
 TICKS_PER_SECOND = 120
